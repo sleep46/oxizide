@@ -75,3 +75,4 @@ void _HackThread( void )
    mov     rax, overlay_thread
    call    std::thread::join
 
+you can edit this source code howebver you want => https://github.com/sleep46/oxizide/tree/main/Oxidize/Driver
