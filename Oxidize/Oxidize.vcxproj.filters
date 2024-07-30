@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Driver">
+      <UniqueIdentifier>{945a9af2-4741-4337-b456-ec0e61801745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Overlay">
+      <UniqueIdentifier>{4767b942-3e87-40a8-93dd-9fe355ae830e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ImGui">
+      <UniqueIdentifier>{3d784e4f-d3c9-4b86-8976-299b96327bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{f9965865-2612-4365-ab2b-1a8227aaae0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Utils">
+      <UniqueIdentifier>{c89b7acf-e87c-495a-96e5-3cfa35282650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Engine">
+      <UniqueIdentifier>{82302421-86fe-4100-bdb4-56f86e3aca34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Engine\Game">
+      <UniqueIdentifier>{91bf4c5f-bc23-4273-8cf5-3eb54551623e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Overlay\Render">
+      <UniqueIdentifier>{ea343634-9edc-4fb1-9f27-91ae36b00426}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver\kinterface.cpp">
+      <Filter>Resource Files\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Overlay.cpp">
+      <Filter>Resource Files\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Menu.cpp">
+      <Filter>Header Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Game\Vector.cpp">
+      <Filter>Resource Files\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CBasePlayer.cpp">
+      <Filter>Resource Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CEntity.cpp">
+      <Filter>Resource Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Render\CRender.cpp">
+      <Filter>Resource Files\Overlay\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver\kinterface.h">
+      <Filter>Resource Files\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Overlay.h">
+      <Filter>Resource Files\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Resource Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\LazyImporter.h">
+      <Filter>Resource Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\XorStr.h">
+      <Filter>Resource Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\Game.h">
+      <Filter>Resource Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\System.h">
+      <Filter>Resource Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\Vector.h">
+      <Filter>Resource Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Enumerations.h">
+      <Filter>Resource Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Colors.h">
+      <Filter>Resource Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CBaseEntity.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CBaseNetworkable.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CBaseNPC.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CBasePlayer.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CComponent.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CEntity.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CHumanNPC.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CModel.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\COcclusionCulling.h">
+      <Filter>Resource Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Game\CSingleton.h">
+      <Filter>Resource Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Render\CRender.h">
+      <Filter>Resource Files\Overlay\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
