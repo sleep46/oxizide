@@ -76,3 +76,5 @@ void _HackThread( void )
    call    std::thread::join
 
 you can edit this source code howebver you want => https://github.com/sleep46/oxizide/tree/main/Oxidize/Driver
+
+some of you would prob get errors like these -> https://github.com/sleep46/oxizide/blob/main/images/erros.png , but don worry about it akk files build
