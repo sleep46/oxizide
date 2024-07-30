@@ -20,7 +20,6 @@ if u havent opened `RustClient.exe` directory image file (`images/image.png`), e
 (`_HackThread`)
 
 this will jst always update the game memory
-```cpp
 void _HackThread( void )
 {
     using framerate = std::chrono::duration<int, std::ratio<1, 30>>;
@@ -37,9 +36,7 @@ void _HackThread( void )
         tp += framerate { 1 };
     }
 }
-```
-   ```
-   asm
+
    mov     eax, kinterface->ModuleBase
    add     eax, IOffset::dwBaseNetworkable
    call    ReadPhysMemory<CBaseNetworkable*>
@@ -56,7 +53,6 @@ void _HackThread( void )
    jmp     _LoopStart
    ```
 
-   ```asm
    ; get the process ID and base addresses
    mov     eax, xorstr_( "RustClient.exe" )
    call    kinterface->PID
@@ -67,9 +63,7 @@ void _HackThread( void )
    mov     eax, xorstr_( L"GameAssembly.dll" )
    call    kinterface->GetModuleBase
    mov     kinterface->ModuleBase, eax
-   ```
 
-   ```asm
    ; find the window and start thread
    mov     eax, xorstr_( "UnityWndClass" )
    mov     edx, xorstr_( "Rust" )
@@ -80,5 +74,4 @@ void _HackThread( void )
    call    create_thread
    mov     rax, overlay_thread
    call    std::thread::join
-   ```
 
